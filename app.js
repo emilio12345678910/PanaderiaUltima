@@ -38,9 +38,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Configuración de base de datos MySQL
 const pool = mysql.createPool({
   host: process.env.DB_HOST || 'sql5.freesqldatabase.com',
-  user: process.env.DB_USER || 'sql5813911',
-  password: process.env.DB_PASSWORD || 'GWVz1EJnp4',
-  database: process.env.DB_NAME || 'sql5813911',
+  user: process.env.DB_USER || 'sql5814847',
+  password: process.env.DB_PASSWORD || 'bnpp3csArx',
+  database: process.env.DB_NAME || 'sql5814847',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
